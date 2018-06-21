@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "0.0.1",
+  "description": "A simple bot",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "chat-engine": "^0.9.5",
+    "chat-engine-typing-indicator": "0.0.9",
+    "moment-timezone": "^0.5.20",
+    "pubnub": "^4.21.2",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
