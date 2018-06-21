@@ -15,7 +15,8 @@
     "chat-engine-typing-indicator": "0.0.9",
     "moment-timezone": "^0.5.20",
     "pubnub": "^4.21.2",
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "express": "^4.15.2"
   },
   "devDependencies": {},
   "license": "MIT"
