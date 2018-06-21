@@ -363,6 +363,6 @@ pubnub.addListener({
 });
 
 pubnub.subscribe({
-    channels: [readENV('PUBNUB_CHANNEL']
+    channels: [readENV('PUBNUB_CHANNEL')]
 });
 
