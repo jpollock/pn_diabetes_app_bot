@@ -118,7 +118,7 @@ ChatEngine.on('message', (a) => {
             resp = getLastMeal(function(err, message) {
 
                 chat.emit('message', {
-                    text: 'Olivia had ' message + ' grams of carbs.'
+                    text: 'Olivia had ' + message + ' grams of carbs.'
                 });        
 
             });
