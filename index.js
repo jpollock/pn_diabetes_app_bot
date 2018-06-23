@@ -118,7 +118,7 @@ ChatEngine.on('message', (a) => {
             resp = getLastMeal(function(err, message) {
 
                 chat.emit('message', {
-                    text: message
+                    text: 'Olivia had ' message + ' grams of carbs.'
                 });        
 
             });
@@ -341,7 +341,7 @@ pubnub.addListener({
         var pubTT = m.timetoken; // Publish timetoken
         var msg = m.message; // The Payload
         var publisher = m.publisher; //The Publisher
-        updateChat(msg['eon']['bg']);
+        updateChat('Olivia\'s latest BG number: ' + msg['eon']['bg']);
     },
     presence: function(p) {
         // handle presence
